@@ -59,7 +59,7 @@ var css = csjs`
 var infoText = yo`
   <div>
     Have a question, found a bug or want to propose a feature? Have a look at the
-    <a href='https://github.com/ethereum/browser-solidity/issues'> issues</a> or check out
+    <a href='https://github.com/ethereum/remix-ide/issues'> issues</a> or check out
     <a href='https://remix.readthedocs.io/en/latest/'> the documentation page on Remix</a> or
     <a href='https://solidity.readthedocs.io/en/latest/'> Solidity</a>.
   </div>

@@ -408,7 +408,7 @@ function run () {
     filesProviders: filesProviders
   })
 
-  // Add files received from remote instance (i.e. another browser-solidity)
+  // Add files received from remote instance (i.e. another remix-ide)
   function loadFiles (filesSet, fileProvider) {
     if (!fileProvider) fileProvider = 'browser'
 
