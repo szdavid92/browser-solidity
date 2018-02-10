@@ -109,6 +109,9 @@ var css = csjs`
   .pendingTxsText {
     ${styles.rightPanel.runTab.borderBox_Instance}
     font-style: italic;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
   }
   .item {
     margin-right: 1em;
@@ -140,6 +143,7 @@ var css = csjs`
   }
   .icon {
     font-size: 12px;
+    cursor: pointer;
     color: ${styles.rightPanel.runTab.icon_Color};
     margin-left: 5px;
   }
@@ -170,13 +174,17 @@ var css = csjs`
   .networkItem {
     margin-right: 5px;
   }
-  .clearinstance {
-    font-size: 20px;
-    cursor: pointer;
-    margin-right: 10px;
-  }
   .transactionActions {
-    float: right;
+    display: flex;
+    width: 50px;
+    justify-content: space-between;
+}
+
+
+
+
+
+
 `
 
 module.exports = css
